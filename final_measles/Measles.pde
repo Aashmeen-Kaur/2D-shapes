@@ -8,7 +8,7 @@ void measles() {
     measlesX2 = random(faceSquareX+height*9/75, faceSquareX+faceSquareSide-height*9/75);
     measlesY2 = random(faceSquareY+height*16/75, faceSquareY+faceSquareSide-height*16/75);
     //
-    fill(measlesColor);
+    fill(lightred);
     ellipse(measlesX, measlesY, measlesDiameter, measlesDiameter);
     ellipse(measlesX2, measlesY2, measlesDiameter, measlesDiameter);
     //

@@ -12,6 +12,9 @@ void populatingVariables() {
   faceY = height/2;
   faceDiameter = height; 
   //
+  flowerX = width*4.15/6;
+  flowerY = height*1/6;
+  //
   leftEyeX = width*2/5;
   leftEyeY = height*2/5;
   rightEyeX = width*3/5;
